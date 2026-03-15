@@ -1,6 +1,6 @@
 # 🌦️ Weather Data Pipeline
 
-A fully automated end-to-end ETL pipeline for ingesting, transforming, and storing weather data — orchestrated with Apache Airflow.
+A fully automated end-to-end ETL pipeline for ingesting, transforming, and storing weather data, orchestrated with Apache Airflow.
 
 ---
 
@@ -9,15 +9,21 @@ A fully automated end-to-end ETL pipeline for ingesting, transforming, and stori
 ```
 Weather-Data-Pipeline/
 ├── README.md
-├── data/                          # Raw and processed data storage
-├── notebooks/                     # Exploratory analysis & prototyping
+├── .gitignore
+├── LICENSE
+├── pyproject.toml
+├── uv.lock
+├── .python-version                # Contains python version used in project 
+├── main.py                        # File containg etl code from scripts 
+├── logger/                        # Contains custom logger code 
+├── logs/                          # Contains logs generated during exceution 
+├── eda/                           # Exploratory analysis & prototyping
 ├── scripts/
 │   ├── extract.py                 # Fetch weather data from API
 │   ├── transform.py               # Clean and normalize data
 │   └── load.py                    # Load into target data store
 ├── dags/
 │   └── weather_pipeline_dag.py    # Airflow DAG definition
-├── requirements.txt               # Python dependencies
 └── config/
     └── config.yaml                # Environment & pipeline configuration
 ```
@@ -29,45 +35,32 @@ Weather-Data-Pipeline/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/weather-data-pipeline.git
+git clone https://github.com/Hanan-Nawaz/weather-data-pipeline.git
 cd weather-data-pipeline
 ```
 
 ### 2. Install dependencies
 
 ```bash
-pip install -r requirements.txt
+uv sync
 ```
 
 ### 3. Configure the pipeline
 
-Edit `config/config.yaml` with your API credentials and database settings:
+Edit `config/config.yaml` with your API credentials and database settings and cities of your choice.
 
-```yaml
-api:
-  key: YOUR_API_KEY
-  endpoint: https://api.weather.example.com
-
-database:
-  host: localhost
-  port: 5432
-  name: weather_db
-```
 
 ### 4. Run scripts manually
 
 ```bash
-python scripts/extract.py
-python scripts/transform.py
-python scripts/load.py
+uv run scripts/extract.py
+uv run scripts/transform.py
+uv run scripts/load.py
 ```
 
 ### 5. Deploy with Airflow
 
 ```bash
-# Copy DAG to your Airflow DAGs folder
-cp dags/weather_pipeline_dag.py $AIRFLOW_HOME/dags/
-
 # Start Airflow
 airflow scheduler &
 airflow webserver
@@ -102,34 +95,11 @@ The Airflow DAG (`weather_pipeline_dag.py`) orchestrates these steps on a schedu
 | Layer         | Tool / Library             |
 |---------------|----------------------------|
 | Orchestration | Apache Airflow             |
-| Language      | Python 3.9+                |
+| Language      | Python 3.12                |
 | HTTP Client   | `requests`                 |
 | Data Handling | `pandas`                   |
 | Storage       | PostgreSQL / CSV           |
 | Config        | PyYAML                     |
-
----
-
-## Configuration Reference
-
-| Key                  | Description                        | Default     |
-|----------------------|------------------------------------|-------------|
-| `api.key`            | Weather API authentication key     | —           |
-| `api.endpoint`       | Base URL of the weather API        | —           |
-| `database.host`      | Database host address              | `localhost` |
-| `database.port`      | Database port                      | `5432`      |
-| `database.name`      | Target database name               | `weather_db`|
-| `pipeline.schedule`  | Airflow cron schedule expression   | `@hourly`   |
-
----
-
-## Notebooks
-
-The `notebooks/` directory contains Jupyter notebooks for:
-
-- Exploratory data analysis (EDA) of raw weather feeds
-- Validating transform logic before scripting
-- Visualizing historical trends post-load
 
 ---
 
@@ -139,12 +109,14 @@ The `notebooks/` directory contains Jupyter notebooks for:
 pytest tests/
 ```
 
+- will be added soon.
+
 ---
 
 ## Requirements
 
-- Python 3.9+
-- Apache Airflow 2.x
+- Python 3.12
+- Apache Airflow 2.9.3
 - PostgreSQL (or update `load.py` for your target store)
 - Valid API key from your weather data provider
 
