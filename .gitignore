@@ -1,2 +1,4 @@
 # Don't push virtual environment
 .venv
+
+__pycache__
