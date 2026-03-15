@@ -1,0 +1,120 @@
+2026-03-15 20:38:19,236 - logger.logger - INFO - Extraction started.
+2026-03-15 20:38:19,578 - logger.logger - INFO - Data fetched for Berlin
+2026-03-15 20:38:19,880 - logger.logger - INFO - Data fetched for Hamburg
+2026-03-15 20:38:20,235 - logger.logger - INFO - Data fetched for Munich
+2026-03-15 20:38:20,526 - logger.logger - INFO - Data fetched for Cologne
+2026-03-15 20:38:20,743 - logger.logger - INFO - Extraction started.
+2026-03-15 20:38:20,822 - logger.logger - INFO - Data fetched for Frankfurt
+2026-03-15 20:38:21,030 - logger.logger - INFO - Data fetched for Berlin
+2026-03-15 20:38:21,093 - logger.logger - INFO - Data fetched for Stuttgart
+2026-03-15 20:38:21,453 - logger.logger - INFO - Data fetched for Düsseldorf
+2026-03-15 20:38:21,474 - logger.logger - INFO - Data fetched for Hamburg
+2026-03-15 20:38:21,794 - logger.logger - INFO - Data fetched for Leipzig
+2026-03-15 20:38:21,799 - logger.logger - INFO - Data fetched for Munich
+2026-03-15 20:38:22,161 - logger.logger - INFO - Data fetched for Dortmund
+2026-03-15 20:38:22,164 - logger.logger - INFO - Data fetched for Cologne
+2026-03-15 20:38:22,447 - logger.logger - INFO - Data fetched for Essen
+2026-03-15 20:38:22,460 - logger.logger - INFO - Data fetched for Frankfurt
+2026-03-15 20:38:22,789 - logger.logger - INFO - Data fetched for Bremen
+2026-03-15 20:38:22,806 - logger.logger - INFO - Data fetched for Stuttgart
+2026-03-15 20:38:23,117 - logger.logger - INFO - Data fetched for Dresden
+2026-03-15 20:38:23,121 - logger.logger - INFO - Data fetched for Düsseldorf
+2026-03-15 20:38:23,455 - logger.logger - INFO - Data fetched for Hanover
+2026-03-15 20:38:23,462 - logger.logger - INFO - Data fetched for Leipzig
+2026-03-15 20:38:23,772 - logger.logger - INFO - Data fetched for Dortmund
+2026-03-15 20:38:23,808 - logger.logger - INFO - Data fetched for Nuremberg
+2026-03-15 20:38:24,321 - logger.logger - INFO - Data fetched for Duisburg
+2026-03-15 20:38:24,321 - logger.logger - INFO - Data fetched for Essen
+2026-03-15 20:38:24,819 - logger.logger - INFO - Data fetched for Bremen
+2026-03-15 20:38:24,833 - logger.logger - INFO - Data fetched for Bochum
+2026-03-15 20:38:25,371 - logger.logger - INFO - Data fetched for Dresden
+2026-03-15 20:38:25,384 - logger.logger - INFO - Data fetched for Wuppertal
+2026-03-15 20:38:25,748 - logger.logger - INFO - Data fetched for Hanover
+2026-03-15 20:38:25,754 - logger.logger - INFO - Data fetched for Bielefeld
+2026-03-15 20:38:26,047 - logger.logger - INFO - Data fetched for Nuremberg
+2026-03-15 20:38:26,048 - logger.logger - INFO - Data fetched for Bonn
+2026-03-15 20:38:26,634 - logger.logger - INFO - Data fetched for Duisburg
+2026-03-15 20:38:26,687 - logger.logger - INFO - Data fetched for Mannheim
+2026-03-15 20:38:27,259 - logger.logger - INFO - Data fetched for Bochum
+2026-03-15 20:38:27,337 - logger.logger - INFO - Data fetched for Karlsruhe
+2026-03-15 20:38:27,887 - logger.logger - INFO - Data fetched for Wuppertal
+2026-03-15 20:38:28,034 - logger.logger - INFO - Data fetched for Wiesbaden
+2026-03-15 20:38:28,226 - logger.logger - INFO - Data fetched for Bielefeld
+2026-03-15 20:38:28,651 - logger.logger - INFO - Data fetched for Münster
+2026-03-15 20:38:28,770 - logger.logger - INFO - Data fetched for Bonn
+2026-03-15 20:38:29,101 - logger.logger - INFO - Data fetched for Augsburg
+2026-03-15 20:38:29,157 - logger.logger - INFO - Data fetched for Mannheim
+2026-03-15 20:38:29,466 - logger.logger - INFO - Data fetched for Mönchengladbach
+2026-03-15 20:38:29,487 - logger.logger - INFO - Data fetched for Karlsruhe
+2026-03-15 20:38:29,769 - logger.logger - INFO - Data fetched for Wiesbaden
+2026-03-15 20:38:29,774 - logger.logger - INFO - Data fetched for Gelsenkirchen
+2026-03-15 20:38:30,095 - logger.logger - INFO - Data fetched for Braunschweig
+2026-03-15 20:38:30,096 - logger.logger - INFO - Data fetched for Münster
+2026-03-15 20:38:30,387 - logger.logger - INFO - Data fetched for Chemnitz
+2026-03-15 20:38:30,400 - logger.logger - INFO - Data fetched for Augsburg
+2026-03-15 20:38:30,874 - logger.logger - INFO - Data fetched for Mönchengladbach
+2026-03-15 20:38:30,882 - logger.logger - INFO - Data fetched for Kiel
+2026-03-15 20:38:31,242 - logger.logger - INFO - Data fetched for Aachen
+2026-03-15 20:38:31,243 - logger.logger - INFO - Data fetched for Gelsenkirchen
+2026-03-15 20:38:31,788 - logger.logger - INFO - Data fetched for Halle (Saale)
+2026-03-15 20:38:31,797 - logger.logger - INFO - Data fetched for Braunschweig
+2026-03-15 20:38:32,106 - logger.logger - INFO - Data fetched for Magdeburg
+2026-03-15 20:38:32,111 - logger.logger - INFO - Data fetched for Chemnitz
+2026-03-15 20:38:32,447 - logger.logger - INFO - Data fetched for Freiburg im Breisgau
+2026-03-15 20:38:32,444 - logger.logger - INFO - Data fetched for Kiel
+2026-03-15 20:38:32,809 - logger.logger - INFO - Data fetched for Krefeld
+2026-03-15 20:38:32,853 - logger.logger - INFO - Data fetched for Aachen
+2026-03-15 20:38:33,187 - logger.logger - INFO - Data fetched for Halle (Saale)
+2026-03-15 20:38:33,191 - logger.logger - INFO - Data fetched for Lübeck
+2026-03-15 20:38:33,570 - logger.logger - INFO - Data fetched for Magdeburg
+2026-03-15 20:38:33,571 - logger.logger - INFO - Data fetched for Oberhausen
+2026-03-15 20:38:33,869 - logger.logger - INFO - Data fetched for Erfurt
+2026-03-15 20:38:33,875 - logger.logger - INFO - Data fetched for Freiburg im Breisgau
+2026-03-15 20:38:34,193 - logger.logger - INFO - Data fetched for Mainz
+2026-03-15 20:38:34,194 - logger.logger - INFO - Data fetched for Krefeld
+2026-03-15 20:38:34,684 - logger.logger - INFO - Data fetched for Rostock
+2026-03-15 20:38:34,697 - logger.logger - INFO - Data fetched for Lübeck
+2026-03-15 20:38:34,946 - logger.logger - INFO - Data fetched for Kassel
+2026-03-15 20:38:34,956 - logger.logger - INFO - Data fetched for Oberhausen
+2026-03-15 20:38:35,244 - logger.logger - INFO - Data fetched for Hagen
+2026-03-15 20:38:35,251 - logger.logger - INFO - Data fetched for Erfurt
+2026-03-15 20:38:35,601 - logger.logger - INFO - Data fetched for Saarbrücken
+2026-03-15 20:38:35,630 - logger.logger - INFO - Data fetched for Mainz
+2026-03-15 20:38:35,912 - logger.logger - INFO - Data fetched for Hamm
+2026-03-15 20:38:35,926 - logger.logger - INFO - Data fetched for Rostock
+2026-03-15 20:38:36,206 - logger.logger - INFO - Data fetched for Kassel
+2026-03-15 20:38:36,220 - logger.logger - INFO - Data fetched for Mülheim an der Ruhr
+2026-03-15 20:38:36,499 - logger.logger - INFO - Data fetched for Hagen
+2026-03-15 20:38:36,505 - logger.logger - INFO - Data fetched for Potsdam
+2026-03-15 20:38:36,810 - logger.logger - INFO - Data fetched for Saarbrücken
+2026-03-15 20:38:36,825 - logger.logger - INFO - Data fetched for Ludwigshafen am Rhein
+2026-03-15 20:38:37,088 - logger.logger - INFO - Data fetched for Oldenburg
+2026-03-15 20:38:37,093 - logger.logger - INFO - Data fetched for Hamm
+2026-03-15 20:38:37,464 - logger.logger - INFO - Data fetched for Mülheim an der Ruhr
+2026-03-15 20:38:37,467 - logger.logger - INFO - Data fetched for Leverkusen
+2026-03-15 20:38:37,810 - logger.logger - INFO - Data fetched for Potsdam
+2026-03-15 20:38:37,818 - logger.logger - INFO - Data fetched for Osnabrück
+2026-03-15 20:38:38,154 - logger.logger - INFO - Data fetched for Solingen
+2026-03-15 20:38:38,160 - logger.logger - INFO - Data fetched for Ludwigshafen am Rhein
+2026-03-15 20:38:38,545 - logger.logger - INFO - Data fetched for Heidelberg
+2026-03-15 20:38:38,549 - logger.logger - INFO - Data fetched for Oldenburg
+2026-03-15 20:38:39,091 - logger.logger - INFO - Data fetched for Herne
+2026-03-15 20:38:39,097 - logger.logger - INFO - Data fetched for Leverkusen
+2026-03-15 20:38:39,413 - logger.logger - INFO - Data fetched for Neuss
+2026-03-15 20:38:39,414 - logger.logger - INFO - Data fetched for Osnabrück
+2026-03-15 20:38:39,420 - logger.logger - INFO - Extraction succeeded.
+2026-03-15 20:38:39,420 - logger.logger - INFO - Extraction finished.
+2026-03-15 20:38:39,420 - logger.logger - INFO - ----Transormation Started!-----
+2026-03-15 20:38:39,488 - logger.logger - INFO - ----Extraction Successded!-----
+2026-03-15 20:38:39,488 - logger.logger - INFO - ----Loading Successded!-----
+2026-03-15 20:38:39,681 - logger.logger - INFO - ----Loading Succeeded!-----
+2026-03-15 20:38:39,847 - logger.logger - INFO - Data fetched for Solingen
+2026-03-15 20:38:40,408 - logger.logger - INFO - Data fetched for Heidelberg
+2026-03-15 20:38:41,026 - logger.logger - INFO - Data fetched for Herne
+2026-03-15 20:38:41,361 - logger.logger - INFO - Data fetched for Neuss
+2026-03-15 20:38:41,363 - logger.logger - INFO - Extraction succeeded.
+2026-03-15 20:38:41,363 - logger.logger - INFO - Extraction finished.
+2026-03-15 20:38:41,363 - logger.logger - INFO - ----Transormation Started!-----
+2026-03-15 20:38:41,398 - logger.logger - INFO - ----Extraction Successded!-----
+2026-03-15 20:38:41,398 - logger.logger - INFO - ----Loading Successded!-----
+2026-03-15 20:38:41,472 - logger.logger - INFO - ----Loading Succeeded!-----
