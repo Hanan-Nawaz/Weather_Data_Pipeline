@@ -2,6 +2,8 @@
 
 A fully automated end-to-end ETL pipeline for ingesting, transforming, and storing weather data, orchestrated with Apache Airflow.
 
+<img src="https://github.com/Hanan-Nawaz/Weather_Data_Pipeline/blob/main/docs/workflow.png?raw=true" height="420" width="100%"/>
+
 ---
 
 ## Project Structure
