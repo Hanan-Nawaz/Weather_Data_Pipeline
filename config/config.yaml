@@ -1,0 +1,92 @@
+api:
+  key: "YOUR_API_KEY"
+  base_url: https://api.openweathermap.org/data/2.5
+  units: metric
+
+cities:
+- name: Berlin
+- name: Hamburg
+- name: Munich
+- name: Cologne
+- name: Frankfurt
+- name: Stuttgart
+- name: Düsseldorf
+- name: Leipzig
+- name: Dortmund
+- name: Essen
+- name: Bremen
+- name: Dresden
+- name: Hanover
+- name: Nuremberg
+- name: Duisburg
+- name: Bochum
+- name: Wuppertal
+- name: Bielefeld
+- name: Bonn
+- name: Mannheim
+- name: Karlsruhe
+- name: Wiesbaden
+- name: Münster
+- name: Augsburg
+- name: Mönchengladbach
+- name: Gelsenkirchen
+- name: Braunschweig
+- name: Chemnitz
+- name: Kiel
+- name: Aachen
+- name: Halle (Saale)
+- name: Magdeburg
+- name: Freiburg im Breisgau
+- name: Krefeld
+- name: Lübeck
+- name: Oberhausen
+- name: Erfurt
+- name: Mainz
+- name: Rostock
+- name: Kassel
+- name: Hagen
+- name: Saarbrücken
+- name: Hamm
+- name: Mülheim an der Ruhr
+- name: Potsdam
+- name: Ludwigshafen am Rhein
+- name: Oldenburg
+- name: Leverkusen
+- name: Osnabrück
+- name: Solingen
+- name: Heidelberg
+- name: Herne
+- name: Neuss
+
+logs:
+  file_path: "logs/etl_logs.log"
+  logger_format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  logger_level: 2
+  disable: False
+  propagate: False
+
+transform:
+  columns_to_drop:
+    - coord
+    - base
+    - visibility
+    - timezone
+    - wind
+    - clouds
+    - id
+    - cod
+    - sys
+    - main
+    - pressure
+    - sea_level
+    - grnd_level
+    - weather
+    - rain
+
+database:
+  host: "localhost"
+  port: 5432
+  username: "hanan-nawaz"
+  password: "db_password"
+  name: "weather_db"
+
